@@ -13,14 +13,13 @@ El análisis responde a 4 preguntas planteadas por el director de Customer Exper
 
 ## Entregable
 
-El fichero se enecuentra dentro de la carpeta Solucion, y se debe respetar la estructura.
-`analisis_currys.ipynb` — notebook con el análisis completo, limpio y ejecutable.
+El fichero `analisis_currys.ipynb` se enecuentra dentro de la carpeta Solucion, y se debe respetar la estructura.
 
 ---
 
 ## Requisitos
 
-**Python 3.10+** recomendado.
+**Python 3.10+** recomendado.Al realizar el proyecto se ha usado la version 3.12.9 
 
 ```bash
 pip install -r requirements.txt
@@ -34,10 +33,10 @@ El modelo de sentimiento ([cardiffnlp/twitter-roberta-base-sentiment-latest](htt
 
 El dataset **no está incluido en el repositorio** (125 MB, supera el límite de GitHub).
 
-Descárgalo desde Kaggle:
+Se puede descargar desde Kaggle:
 **[Trustpilot Reviews 123k](https://www.kaggle.com/datasets/jerassy/trustpilot-reviews-123k)**
 
-Una vez descargado, colócalo **una carpeta por encima** del notebook:
+Una vez descargado, colócalo en la raíz del proyecto, **una carpeta por encima** del notebook:
 
 ```
 CasoPractico_DL/
@@ -48,7 +47,7 @@ CasoPractico_DL/
     └── analisis_currys.ipynb
 ```
 
-El notebook usa la ruta relativa `../trustpilot-reviews-123k.csv`, por lo que la estructura de carpetas debe respetarse exactamente.
+El notebook usa la ruta relativa `../trustpilot-reviews-123k.csv`, por lo que la estructura de carpetas debe respetarse.
 
 ---
 
@@ -79,10 +78,10 @@ El resultado de la inferencia se guarda automáticamente en `Solucion/currys_wit
 
 ## Técnicas utilizadas
 
-| Técnica | Detalle |
-|---|---|
+| Técnica                 | Detalle |
+|---                      |---|
 | Análisis de sentimiento | [RoBERTa — Cardiff NLP](https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest) |
-| Topic modeling | NMF sobre TF-IDF (K=8, `random_state=42`) |
+| Topic modeling          | NMF sobre TF-IDF (K=8, `random_state=42`) |
 | Comparativa competencia | Gap de % positivo por topic (Currys − media 10 competidores) |
 
 ---
