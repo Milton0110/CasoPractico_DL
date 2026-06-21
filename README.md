@@ -1,6 +1,6 @@
 # Caso Práctico Deep Learning — Análisis de Reseñas Trustpilot
 
-Análisis NLP de reseñas de **www.currys.co.uk** (mayor retailer de electrónica del UK) comparado con 10 competidores del mismo sector.
+Análisis NLP de reseñas la empresa selecionada es "www.currys.co.uk", retailer perteneciente al sector de la electrónica. Comparado con 10 competidores del mismo sector.
 
 El análisis responde a 4 preguntas planteadas por el director de Customer Experience:
 
@@ -13,6 +13,7 @@ El análisis responde a 4 preguntas planteadas por el director de Customer Exper
 
 ## Entregable
 
+El fichero se enecuentra dentro de la carpeta Solucion, y se debe respetar la estructura.
 `analisis_currys.ipynb` — notebook con el análisis completo, limpio y ejecutable.
 
 ---
